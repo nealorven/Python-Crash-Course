@@ -6,17 +6,14 @@ lyings = [
     ]
 
 for true in trues:
+    pass
 
-print(f"All this tuple list have a 'True': {}")
+print("All this tuple list have a 'True': ")
 
+for lying in lyings:
+    pass
 
-
-
-
-#for lying in lyings:
-
-
-#print(f"All this tuple list have a 'False': {}")
+print("All this tuple list have a 'False': ")
 
 
 
