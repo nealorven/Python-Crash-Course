@@ -1,2 +1,2 @@
 # Python-Crash-Course
-Learn Python
+Learn Python: Задачник
