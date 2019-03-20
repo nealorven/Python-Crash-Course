@@ -6,10 +6,8 @@ print(car == 'audi')
 
 # Is car == 'subaru'? I predict True.
 # True
-
 # is car == 'audi'? I predict False.
 # False
-
 
 true = True and True
 if true == True:
