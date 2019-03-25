@@ -3,11 +3,14 @@ dictionary = {
     2:'two',
     3:'three'
     }
-print("dictionary.items():")
-number = input("Enter number 1..3: ")
+number = input("Enter number 1-3: ")
+
 for key, value in dictionary.items():
-    #if dictionary[key] is value: print("They are the same object.")
-    if dictionary[key] == number:
+    if key == int(number):
         print(f"Num: {value}.")
+        break
     else:
         print("They are different.")
+        break
+
+# Поправить

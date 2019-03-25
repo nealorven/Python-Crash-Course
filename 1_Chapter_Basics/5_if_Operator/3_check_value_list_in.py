@@ -7,7 +7,7 @@ print('pepperoni' in requested_toppings)
 # True
 # False
 
-### Проверка отсутствия значения в списке:
+### Проверка отсутствия значения в списке 'not in':
 banned_users = ['andrew', 'carolina', 'david']
 user = 'marie'
 
