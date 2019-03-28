@@ -7,7 +7,7 @@ favorite_languages = {
     'phil': ['python', 'haskell'],
     }
 for name, languages in favorite_languages.items():
-    print(f"{name.title()}'s favorite languages are: ")
+    print(f"{name.title()}'s favorite languages are:")
     # Перебираем списки вложенные в кортежи.
     for language in languages:
         print(f"{language.title()}")
