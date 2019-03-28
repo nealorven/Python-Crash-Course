@@ -16,10 +16,10 @@ cities = {
         },
     }
 for city, description in cities.items():
-    print(f"City: {city.title()}.")
     country = description['country']
     population = description['population']
     fact = description['fact']
+    print(f"City: {city.title()}.")
     print(f"Country: {country.title()}.")
     print(f"Population: {population} people.")
     print(f"Interesting places: {fact.capitalize()}.\n")
