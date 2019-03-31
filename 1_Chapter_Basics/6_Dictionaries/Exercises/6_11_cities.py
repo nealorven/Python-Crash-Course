@@ -7,7 +7,7 @@ cities = {
     'florence': {
         'country': 'italy',
         'population': 382.347,
-        'fact': 'cattedrale di santa maria del fiore',
+        'fact': 'santa maria del fiore',
         },
     'venice': {
         'country': 'italy',
@@ -32,7 +32,7 @@ for city, description in cities.items():
 # City: Florence.
 # Country: Italy.
 # Population: 382.347 people.
-# Interesting places: Cattedrale di santa maria del fiore.
+# Interesting places: Santa maria del fiore.
 
 # City: Venice.
 # Country: Italy.
