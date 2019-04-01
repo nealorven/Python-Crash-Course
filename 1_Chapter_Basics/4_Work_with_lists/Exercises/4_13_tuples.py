@@ -6,14 +6,14 @@ dishes = (
 for dish in dishes:
     print(dish.title())
 
-### Добавить новый элемент методом .append не получится:
+# Добавить новый элемент методом .append не получится:
 """ dishes.append('kakaha') """
 # Traceback (most recent call last):
 #   File "4_13_tuples.py", line 6, in <module>
 #     dishes.append('kakaha')
 # AttributeError: 'tuple' object has no attribute 'append'
 
-### Присвоить новый элемент тоже не получится:
+# Присвоить новый элемент тоже не получится:
 """ dishes[0] = 'kakaha' """
 # Traceback (most recent call last):
 #   File "4_13_tuples.py", line 12, in <module>
@@ -24,7 +24,7 @@ print(dishes)
 
 # ('pelmeny', 'vareniky', 'borsh', 'salat', 'desert')
 
-### Замена картежа с присвоением нового:
+# Замена картежа с присвоением нового:
 new_dishes = (
     'pelmihany', 'varenikany', 'borshevsky',
     'salatecky', 'desertsky'

@@ -1,4 +1,3 @@
-
 pixels = []
 pixel_0 = {'r': 'red', 'g': 'green', 'b': 'blue'}
 

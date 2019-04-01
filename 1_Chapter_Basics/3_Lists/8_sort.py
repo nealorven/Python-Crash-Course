@@ -1,4 +1,4 @@
-### Метод sort() сортирует от A..Z:
+# Метод sort() сортирует от A..Z:
 cars = ['bmw', 'audi', 'toyota', 'subaru']
 cars.sort() # Постоянное изменение порядка
 print(cars)

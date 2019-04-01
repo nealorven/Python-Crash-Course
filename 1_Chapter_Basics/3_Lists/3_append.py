@@ -1,4 +1,5 @@
-### Присоединение элементов в конец списка методом .append():
+# Присоединение элементов в конец списка методом .append():
+
 motorcycles = ['honda', 'yamaha', 'suzuki']
 motorcycles.append('Hokko')
 print(motorcycles)

@@ -1,4 +1,4 @@
-### Не совсем правильное решение, смотреть PEP 8 style guide
+# Не совсем правильное решение, смотреть PEP 8 style guide
 
 # Recommended to use:
 # if not seq:

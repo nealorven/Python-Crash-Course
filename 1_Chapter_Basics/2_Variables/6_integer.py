@@ -1,8 +1,9 @@
-#Целые числа
+# Целые числа
 
 addition = [2+3, 3-2, 2*3, 3/2]
 for i in addition:
     print(i)
+
 # 5
 # 1
 # 6
@@ -11,6 +12,7 @@ for i in addition:
 degree = [3**2, 3**3, 10**6]
 for i in degree:
     print(i)
+
 # 9
 # 27
 # 1000000
@@ -19,6 +21,7 @@ num_0 = 2+3*4
 num_1 = (2+3)*4
 print(num_0)
 print(num_1)
+
 # 14
 # 20
 
@@ -27,6 +30,7 @@ print(num_1)
 numbers = [0.1+0.1, 0.2+0.2, 2*0.1, 2*0.2 ]
 for i in numbers:
     print(i)
+
 # 0.2
 # 0.4
 # 0.2

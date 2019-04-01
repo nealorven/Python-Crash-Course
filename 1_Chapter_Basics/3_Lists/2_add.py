@@ -1,4 +1,4 @@
-### Создаем список с данными:
+# Создаем список с данными:
 motorcycles = ['honda', 'yamaha', 'suzuki']
 print(motorcycles)
 
@@ -10,7 +10,7 @@ print(motorcycles)
 
 # ['ducati', 'yamaha', 'suzuki']
 
-### Пример наполнения списка:
+# Пример наполнения списка:
 motorcycles_new = []
 motorcycles_new.append('moto_0')
 motorcycles_new.append('moto_1')

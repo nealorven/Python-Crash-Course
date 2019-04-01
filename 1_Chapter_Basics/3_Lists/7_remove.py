@@ -1,5 +1,6 @@
-### Удаление элементов используя метод remove()
-### Метод remove() удаляет только первое вхождение заданного значения:
+# Удаление элементов используя метод remove()
+# Метод remove() удаляет только первое вхождение заданного значения:
+
 motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
 print(motorcycles)
 motorcycles.remove('ducati')
@@ -8,7 +9,7 @@ print(motorcycles)
 # ['honda', 'yamaha', 'suzuki', 'ducati']
 # ['honda', 'yamaha', 'suzuki']
 
-### Удаляет значение 'ducati' и выводит причину удаления:
+# Удаляет значение 'ducati' и выводит причину удаления:
 too_expensive = 'suzuki'
 motorcycles.remove(too_expensive)
 print(motorcycles)

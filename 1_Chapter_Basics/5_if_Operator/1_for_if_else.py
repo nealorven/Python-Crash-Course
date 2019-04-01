@@ -1,4 +1,5 @@
 import time
+
 # Пишем цикл for с оператором if else:
 cars = ['audi', 'bmw', 'subaru', 'toyota']
 for car in cars:
