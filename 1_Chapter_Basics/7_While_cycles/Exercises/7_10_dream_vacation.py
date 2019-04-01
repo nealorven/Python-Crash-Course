@@ -10,6 +10,7 @@
 
 responses = {}
 dream_active = True
+
 while dream_active:
 	name = input("\nWhats your name?: ")
 	place = input("Where do you want to go to rest?: ")
@@ -19,7 +20,15 @@ while dream_active:
 	elif repeat == 'no': dream_active = False
 	else: print("You entered an incorrect answer.")
 	break
+
 print("\nPlaces for rest:")
-for name, place in responses.item():
+for name, place in responses.items():
 	print("{} plans to go to {}"
-		.format(name.capitalize(), place.title()))
+		.format(name.title(), place.title()))
+
+# Whats your name?: roma
+# Where do you want to go to rest?: everest
+# continue vacation planning? (yes/no): no
+
+# Places for rest:
+# Roma plans to go to Everest
