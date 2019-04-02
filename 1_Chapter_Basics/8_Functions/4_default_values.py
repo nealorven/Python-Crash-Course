@@ -6,9 +6,10 @@
 # Если вы заметили, что большинство вызовов describe_pet() используется для
 # описания собак, задайте animal_type значение по умолчанию 'dog'.
 
+#                                     ↓ объявлено последним именем
 def describe_pet(pet_name, animal_type='dog'):
-    print("\nI have a " + animal_type + ".")
-    print("My " + animal_type + "'s name is " + pet_name.title() + ".")
+    print(f"\nI have a {animal_type}.")
+    print(f"My {animal_type}'s name is {pet_name.title()}.")
 
 describe_pet(pet_name='willie')
 
