@@ -1,14 +1,14 @@
 Языки программирвоания:
-                     идентификатор ↓   ↓ числовой литерал
-                                   a = 1
-                                     ↑
-                               оператор связи
+    идентификатор ↓   ↓ числовой литерал
+                  a = 1
+                    ↑
+             оператор связи
 
 evaluate - python читает и сравнивает кусочки кода слева направо:
 
-                     код          evaluate          value
-                      ↑              ↑               ↑
-         текст программы    выполнение программы    байты в памяти
+                код          evaluate          value
+                 ↑              ↑               ↑
+    текст программы    выполнение программы    байты в памяти
 
 Expression:
     Минимайльный кусок кода это                      : expression
@@ -21,7 +21,7 @@ Expression:
     специальный кусочек кода(костыль синтаксиса)     : statement
         -нехватка спецсимволов
 
-    спецсимволы и statement вроде return называют    : operator
+    спецсимволы == и statement вроде return называют : operator
         -операторы тесно связаны с expression
 
 foo = (v) => v * 2      : function definition operator(толстая строка)
@@ -29,49 +29,50 @@ foo = (v) => v * 2      : function definition operator(толстая строк
 def foo(v):             : function definition statement(синтаксис python)
     return v * 2
 
-                               Пример evaluate
->>>1 : number literal expression
-1    : number value
+Пример evaluate:
+    >>>1                : number literal expression
+    1                   : number value
 
->>>"Hi" : string literal expression
-'Hi'    : string value
+    >>>"Hi"             : string literal expression
+    'Hi'                : string value
 
->>>1 == 2 : conditional expression
-False     : bolean value
+    >>>1 == 2           : conditional expression
+    False               : bolean value
 
-1 == 2    : compound expression
-                                  1 == 2
-                                  ↑    ↑
-                       использует результат evaluate
-                              слева и справа
+    1 == 2              : compound expression
 
-Лево и право, affinity(1+2, -1, 1==2):
+    низкий приоритет evaluat|ится в конце
+                 ↓
+               1 == 2
+               ↑    ↑
+    использует результат evaluate
+           слева и справа
 
-          1 + 2            + 1              1 +             foo()
-      both affinity   right affinity    no affinity     affinity (yes)
+    user.pics.last() == User.pics.MAIN
+           ↑                  ↑
+        lvalue              rvalue
+
+Лево и право, affinity(1 + 2, -1, 1 == 2):
+
+        1 + 2             + 1              1 +              foo()
+    both affinity    right affinity    no affinity      affinity (yes)
 
 Side-effects:
-
->>> import sys                        : импорт библиотеки
->>> sys.stdout.write("foo\n")         : объект вывода
-foo                                   : side-effect
-4                                     : результат evaluate
+    >>> import sys                     : импорт библиотеки
+    >>> sys.stdout.write("foo\n")      : объект вывода
+    foo                                : side-effect
+    4                                  : результат evaluate
 
 Operator precedence:
-        :        (('-%s' if order else '%s') % column_name)
-
-        :        (                                        )
-        #        1                                        1
-        :         (                        )
-        #         2                        2
-        :          '-%s'               '%s'
-        #            5                  6
-        :                                    %
-        #
-        :                if order else         column_name
-        #                3    4    3                8
-
-Кусочки кода:
-expression:
-literal expression
-conditional expression:
+    :        (('-%s' if order else '%s') % column_name)
+    #
+    :        (                                        )
+    #        1                                        1
+    :         (                        )
+    #         2                        2
+    :          '-%s'               '%s'
+    #            5                  6
+    :                                    %
+    #                                    7
+    :                if order else         column_name
+    #                3    4    3                8
