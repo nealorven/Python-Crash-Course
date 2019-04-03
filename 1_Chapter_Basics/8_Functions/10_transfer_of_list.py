@@ -12,7 +12,9 @@ def greet_users(names):
         msg = "Hello, " + name.title() + "!"
         print(msg)
 
+# Объявление списка
 usernames = ['hannah', 'tyra', 'margot']
+# Обращение к функции с вложенным аргументом
 greet_users(usernames)
 
 # Hello, Hannah!
