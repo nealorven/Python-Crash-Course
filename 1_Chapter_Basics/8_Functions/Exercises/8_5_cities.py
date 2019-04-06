@@ -1,5 +1,6 @@
 def describe_city(city, country='iceland'):
-	print(f"{city.title()} is {country.title()}.")
+    print(f"{city.title()} is {country.title()}.")
+
 
 describe_city('reykjavik')
 describe_city('akureyri')
