@@ -4,6 +4,7 @@ def make_album(name_artist, name_album, tracks=''):
         album['tracks'] = tracks
     return album
 
+
 musician_1 = make_album('john', 'john album')
 musician_2 = make_album('neal', 'neal album')
 musician_3 = make_album('kenen', 'kenen album')
@@ -14,6 +15,7 @@ print(musician_3)
 # {'artist': 'john', 'album': 'john album'}
 # {'artist': 'neal', 'album': 'neal album'}
 # {'artist': 'kenen', 'album': 'kenen album'}
+
 
 musician_1 = make_album('john', 'john album', tracks=14)
 musician_2 = make_album('neal', 'neal album', tracks=26)

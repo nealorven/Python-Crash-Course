@@ -39,5 +39,6 @@ show_completed_models(completed_models)
 # iphone case
 
 print(unprinted_designs)
+
 # Список unprinted_designs сохранился
 # ['iphone case', 'robot pendant', 'dodecahedron']

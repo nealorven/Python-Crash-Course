@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f7838036-74cf-4af3-ae1a-3cedb9653740" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/1_creating_and_using_a_class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/2_creating_a_class_instance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/3_creating_multiple_instances.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/Exercises/9_1_restaurant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/Exercises/9_2_three_restaurants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/Exercises/9_3_users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/5_if_Operator/5_if_elif_else_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/5_if_Operator/5_if_elif_else_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/5_if_Operator/Exercises/5_10_chek_name.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/5_if_Operator/Exercises/5_10_chek_name.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/5_if_Operator/Exercises/5_11_1st_2nd_3rd.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/5_if_Operator/Exercises/5_11_1st_2nd_3rd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/5_if_Operator/Exercises/5_2_Boolean_expressions.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/5_if_Operator/Exercises/5_2_Boolean_expressions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/5_if_Operator/Exercises/5_3_if.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/5_if_Operator/Exercises/5_3_if.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/5_if_Operator/Exercises/5_4_if_else.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/5_if_Operator/Exercises/5_4_if_else.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/5_if_Operator/Exercises/5_5_if_elif_else.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/5_if_Operator/Exercises/5_5_if_elif_else.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/5_if_Operator/Exercises/5_6_periods_of_life.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/5_if_Operator/Exercises/5_6_periods_of_life.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/5_if_Operator/Exercises/5_7_favorite_fruit.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/5_if_Operator/Exercises/5_7_favorite_fruit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/5_if_Operator/Exercises/5_8_hello_admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/5_if_Operator/Exercises/5_8_hello_admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/5_if_Operator/Exercises/5_9_hello_admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/5_if_Operator/Exercises/5_9_hello_admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/6_Dictionaries/1_request_to_dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/6_Dictionaries/1_request_to_dict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/6_Dictionaries/2_add_new_pair.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/6_Dictionaries/2_add_new_pair.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/6_Dictionaries/3_change_value.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/6_Dictionaries/3_change_value.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/6_Dictionaries/5_delete_pair.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/6_Dictionaries/5_delete_pair.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/6_Dictionaries/Exercises/6_10_favorite_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/6_Dictionaries/Exercises/6_10_favorite_numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/7_While_cycles/1_input.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/7_While_cycles/1_input.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/7_While_cycles/3_while_loop.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/7_While_cycles/3_while_loop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/7_While_cycles/Exercises/7_4_pizza_extras.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/7_While_cycles/Exercises/7_4_pizza_extras.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/7_While_cycles/Exercises/7_5_movie_tickets.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/7_While_cycles/Exercises/7_5_movie_tickets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/7_While_cycles/Exercises/7_6_endless_cycle.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/7_While_cycles/Exercises/7_6_endless_cycle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/7_While_cycles/Exercises/7_9_while_exit_break.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/7_While_cycles/Exercises/7_9_while_exit_break.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/10_transfer_of_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/10_transfer_of_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/11_change_the_list_in_the_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/11_change_the_list_in_the_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/12_prevent_changes_to_the_list_in_the_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/12_prevent_changes_to_the_list_in_the_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/2_positional_arguments.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/2_positional_arguments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/3_named_arguments.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/3_named_arguments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_10_great_magicians.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_10_great_magicians.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_11_magicians_without_change.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_11_magicians_without_change.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_1_message.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_1_message.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_2_favorite_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_2_favorite_book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_3_t_shirt.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_3_t_shirt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_4_big_t_shirts.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_4_big_t_shirts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_5_cities.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_5_cities.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_6_city_names.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_6_city_names.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_7_album.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_7_album.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_9_magicians.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_9_magicians.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Python_Crash_Course$3_from_name_module_import_name_function_as_nickname.coverage" NAME="3_from_name_module_import_name_function_as_nickname Coverage Results" MODIFIED="1554590434369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_16_importing" />
+    <SUITE FILE_PATH="coverage/Python_Crash_Course$2_assign_a_nickname_to_a_function.coverage" NAME="2_assign_a_nickname_to_a_function Coverage Results" MODIFIED="1554587283702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/16_from_import" />
+    <SUITE FILE_PATH="coverage/Python_Crash_Course$1_import_name_module.coverage" NAME="1_import_name_module Coverage Results" MODIFIED="1554590323430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_16_importing" />
+    <SUITE FILE_PATH="coverage/Python_Crash_Course$2_creating_a_class_instance.coverage" NAME="2_creating_a_class_instance Coverage Results" MODIFIED="1554646435527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Chapter_Basics/9_Classes" />
+    <SUITE FILE_PATH="coverage/Python_Crash_Course$3_creating_multiple_instances.coverage" NAME="3_creating_multiple_instances Coverage Results" MODIFIED="1554651774170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Chapter_Basics/9_Classes" />
+    <SUITE FILE_PATH="coverage/Python_Crash_Course$8_12_sandwiches.coverage" NAME="8_12_sandwiches Coverage Results" MODIFIED="1554460867245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises" />
+    <SUITE FILE_PATH="coverage/Python_Crash_Course$8_13_profile.coverage" NAME="8_13_profile Coverage Results" MODIFIED="1554549046443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises" />
+    <SUITE FILE_PATH="coverage/Python_Crash_Course$9_1_restaurant.coverage" NAME="9_1_restaurant Coverage Results" MODIFIED="1554655918932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/Exercises" />
+    <SUITE FILE_PATH="coverage/Python_Crash_Course$printing_function.coverage" NAME="printing_function Coverage Results" MODIFIED="1554584732373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_15_printing_models" />
+    <SUITE FILE_PATH="coverage/Python_Crash_Course$4_importing_all_module_functions.coverage" NAME="4_importing_all_module_functions Coverage Results" MODIFIED="1554587321692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/16_from_import" />
+    <SUITE FILE_PATH="coverage/Python_Crash_Course$8_14_cars.coverage" NAME="8_14_cars Coverage Results" MODIFIED="1554577706966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises" />
+    <SUITE FILE_PATH="coverage/Python_Crash_Course$2_from_name_module_import_name_function.coverage" NAME="2_from_name_module_import_name_function Coverage Results" MODIFIED="1554590307141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_16_importing" />
+    <SUITE FILE_PATH="coverage/Python_Crash_Course$9_2_three_restaurants.coverage" NAME="9_2_three_restaurants Coverage Results" MODIFIED="1554656558473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/Exercises" />
+    <SUITE FILE_PATH="coverage/Python_Crash_Course$13_passing_an_arbitrary_set_of_arguments.coverage" NAME="13_passing_an_arbitrary_set_of_arguments Coverage Results" MODIFIED="1554377900592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Chapter_Basics/8_Functions" />
+    <SUITE FILE_PATH="coverage/Python_Crash_Course$14_positional_arguments_with_arbitrary_sets_of_arguments.coverage" NAME="14_positional_arguments_with_arbitrary_sets_of_arguments Coverage Results" MODIFIED="1554378406251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Chapter_Basics/8_Functions" />
+    <SUITE FILE_PATH="coverage/Python_Crash_Course$making_pizzas.coverage" NAME="making_pizzas Coverage Results" MODIFIED="1554581027422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/15_Modules_pizza" />
+    <SUITE FILE_PATH="coverage/Python_Crash_Course$4_from_name_module_as_nickname.coverage" NAME="4_from_name_module_as_nickname Coverage Results" MODIFIED="1554590464186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_16_importing" />
+    <SUITE FILE_PATH="coverage/Python_Crash_Course$5_from_name_module_import_star.coverage" NAME="5_from_name_module_import_star Coverage Results" MODIFIED="1554590510053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_16_importing" />
+    <SUITE FILE_PATH="coverage/Python_Crash_Course$9_3_users.coverage" NAME="9_3_users Coverage Results" MODIFIED="1554659643841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/Exercises" />
+    <SUITE FILE_PATH="coverage/Python_Crash_Course$11_change_the_list_in_the_function.coverage" NAME="11_change_the_list_in_the_function Coverage Results" MODIFIED="1554366827521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Chapter_Basics/8_Functions" />
+    <SUITE FILE_PATH="coverage/Python_Crash_Course$call__print_function.coverage" NAME="call_ print_function Coverage Results" MODIFIED="1554586265348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_15_printing_models" />
+    <SUITE FILE_PATH="coverage/Python_Crash_Course$1_Import_specific_features.coverage" NAME="1_Import_specific_features Coverage Results" MODIFIED="1554587292641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/16_from_import" />
+    <SUITE FILE_PATH="coverage/Python_Crash_Course$3_assign_a_nickname_for_a_module.coverage" NAME="3_assign_a_nickname_for_a_module Coverage Results" MODIFIED="1554587310798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/16_from_import" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/14_positional_arguments_with_arbitrary_sets_of_arguments.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="726">
+                  <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/9_Classes/2_creating_a_class_instance.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="132">
+                  <caret line="6" selection-start-line="6" selection-end-line="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/9_Classes/Exercises/9_1_restaurant.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="506">
+                  <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/9_Classes/Exercises/9_2_three_restaurants.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="550">
+                  <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/9_Classes/Exercises/9_3_users.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="638">
+                  <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_13_profile.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_14_cars.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/12_prevent_changes_to_the_list_in_the_function.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/12_prevent_changes_to_the_list_in_the_function.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/13_passing_an_arbitrary_set_of_arguments.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_2_favorite_book.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_3_t_shirt.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_4_big_t_shirts.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_5_cities.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_6_city_names.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_7_album.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_8_custom_albums_1.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/10_transfer_of_list.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_12_sandwiches.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_13_profile.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_14_cars.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Modules/pizza.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/15_Modules/pizza.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/15_Importing_the_entire_module.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/15_Modules/making_pizzas.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/15_Modules_pizza/2_assign_a_nickname_to_a_function.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/15_Modules_pizza/1_Import_specific_features.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/15_Modules_pizza/3_assign_a_nickname_for_a_module.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/15_Modules_pizza/4_importing_all_module_functions.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/16_styling_features.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/printing_functions.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/15_Modules_pizza/making_pizzas.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_15_printing_models/printing_functions.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_15_printing_models/printing_function.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_15_printing_models/call_ print_function.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/16_from_import/0_Importing_the_entire_module.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/16_from_import/1_Import_specific_features.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/16_from_import/2_assign_a_nickname_to_a_function.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/16_from_import/3_assign_a_nickname_for_a_module.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/16_from_import/4_importing_all_module_functions.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_16_importing/2_from_name_module_import_name_function.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_16_importing/3_from_name_module_import_name_function_as_nickname.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_16_importing/1_import_name_module.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_16_importing/4_from_name_module_as_nickname.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_16_importing/5_from_name_module_import_star.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/15_styling_features.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_17_styling_features/some.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/1_class_dog.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/1_creating_and_using_a_class.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/2_creating_a_class_instance.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/3_creating_multiple_instances.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/Exercises/1_restaurant.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/Exercises/9_1_restaurant.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/Exercises/9_2_three_restaurants.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/Exercises/9_3_users.py" />
+        <option value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/14_positional_arguments_with_arbitrary_sets_of_arguments.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="219" />
+    <option name="y" value="191" />
+    <option name="width" value="1773" />
+    <option name="height" value="1216" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Python-Crash-Course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python-Crash-Course" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python-Crash-Course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python-Crash-Course" type="462c0819:PsiDirectoryNode" />
+              <item name="1_Chapter_Basics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python-Crash-Course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python-Crash-Course" type="462c0819:PsiDirectoryNode" />
+              <item name="1_Chapter_Basics" type="462c0819:PsiDirectoryNode" />
+              <item name="9_Classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.9_3_users">
+    <configuration name="11_change_the_list_in_the_function" type="PythonConfigurationType" factoryName="Python">
+      <module name="Python-Crash-Course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/11_change_the_list_in_the_function.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="14_positional_arguments_with_arbitrary_sets_of_arguments" type="PythonConfigurationType" factoryName="Python">
+      <module name="Python-Crash-Course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/14_positional_arguments_with_arbitrary_sets_of_arguments.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2_creating_a_class_instance" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python-Crash-Course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1_Chapter_Basics/9_Classes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/2_creating_a_class_instance.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3_creating_multiple_instances" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python-Crash-Course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1_Chapter_Basics/9_Classes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/3_creating_multiple_instances.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="9_1_restaurant" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python-Crash-Course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/Exercises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/Exercises/9_1_restaurant.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="9_2_three_restaurants" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python-Crash-Course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/Exercises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/Exercises/9_2_three_restaurants.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="9_3_users" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python-Crash-Course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/Exercises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/Exercises/9_3_users.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.9_3_users" />
+        <item itemvalue="Python.9_2_three_restaurants" />
+        <item itemvalue="Python.9_1_restaurant" />
+        <item itemvalue="Python.3_creating_multiple_instances" />
+        <item itemvalue="Python.2_creating_a_class_instance" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7838036-74cf-4af3-ae1a-3cedb9653740" name="Default Changelist" comment="" />
+      <created>1554351300030</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554351300030</updated>
+      <workItem from="1554351302629" duration="109000" />
+      <workItem from="1554356705034" duration="145000" />
+      <workItem from="1554357161927" duration="1004000" />
+      <workItem from="1554358180904" duration="509000" />
+      <workItem from="1554358704504" duration="35529000" />
+      <workItem from="1554539757688" duration="1570000" />
+      <workItem from="1554554409047" duration="12988000" />
+      <workItem from="1554632452058" duration="20075000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="71929000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="219" y="191" width="1773" height="1216" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.26294822" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5760668" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39865622" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3283582" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3295964" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3295964" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/16_styling_features.py" />
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/9_function_in_a_while_loop.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/7_optional_arguments.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/8_return_dictionary.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/10_transfer_of_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/11_change_the_list_in_the_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/printing_functions.py" />
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_15_printing_models/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_15_printing_models/printing_functions.py" />
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_15_printing_models/printing.py" />
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/12_prevent_changes_to_the_list_in_the_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="923">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/15_modules_pizza/making_pizzas.py" />
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/15_modules_pizza/pizza.py" />
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/15_Importing_the_entire_module.py" />
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/16_from_import/module_call.py" />
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/16_from_import/module.py" />
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/16_from_import/5_Importing_the_entire_module.py" />
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/16_from_import/making_pizzas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/16_from_import/0_Importing_the_entire_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/16_from_import/1_Import_specific_features.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/16_from_import/2_assign_a_nickname_to_a_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/16_from_import/3_assign_a_nickname_for_a_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/16_from_import/4_importing_all_module_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/16_from_import/pizza.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_15_printing_models/printing_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_15_printing_models/call_ print_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_16_importing/call_ print_function.py" />
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_16_importing/printing_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_16_importing/2_from_name_module_import_name_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_16_importing/3_from_name_module_import_name_function_as_nickname.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_16_importing/1_import_name_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_16_importing/4_from_name_module_as_nickname.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_16_importing/5_from_name_module_import_star.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_17_styling_features/some.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_12_sandwiches.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/1_define_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/3_named_arguments.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/2_positional_arguments.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/4_default_values.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_10_great_magicians.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/5_equivalent_function_calls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-239" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="44">
+            <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/9_Classes/Exercises/9_1_restaurant.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/9_Classes/Exercises/9_2_three_restaurants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/9_Classes/1_creating_and_using_a_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/13_passing_an_arbitrary_set_of_arguments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/9_Classes/3_creating_multiple_instances.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/9_Classes/2_creating_a_class_instance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/9_Classes/Exercises/9_3_users.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/15_styling_features.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/8_Functions/14_positional_arguments_with_arbitrary_sets_of_arguments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
