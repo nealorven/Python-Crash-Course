@@ -4,9 +4,12 @@ def build_profile(first, last, **user_info):
         user_profile[key] = value
     return user_profile
 
+<<<<<<< HEAD
 def user_profile():
 
 
+=======
+>>>>>>> 22c3f03323503d9ac99e218539a693f5367169ef
 
 new_profile = build_profile('neal', 'orven',
                             mail='nealorven@gmail.com',
