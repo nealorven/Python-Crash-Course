@@ -15,6 +15,7 @@
 
 class Car:
     """Простая модель автомобиля."""
+
     def __init__(self, make, model, year):
         self.make = make
         self.model = model
@@ -38,24 +39,49 @@ class Car:
     def increment_odometer(self, miles):
         self.odometer_reading += miles
 
+    # Переопределение методов класса-родителя
     def fill_gas_tank(self):
         gas = self.gas_tank
         return gas
 
 
-# Имя super происходит из распространенной терминологии: класс-родитель
-# называется суперклассом, а класс-потомок — субклассом.
-class ElectricCar(Car):
-    """Представляет аспекты машины, специфические для электромобилей."""
-    def __init__(self, make, model, year):
-        """Инициализирует атрибуты класса-родителя."""
-        super().__init__(make, model, year)
-        self.battery_size = 70
+class Battery:
+    """Простая модель аккумулятора электромобиля."""
+
+    def __init__(self, battery_size=70):
+        self.battery_size = battery_size
 
     def describe_battery(self):
         """Выводит информацию о мощности аккумулятора."""
-        print(f"This car has a {self.battery_size} -kWh battery.")
+        print(f"This car has a {self.battery_size}-kWh battery.")
 
+    def get_range(self):
+        """Выводит приблизительный запас хода для аккумулятора."""
+        global range_kwh
+
+        if self.battery_size == 70:
+            range_kwh = 240
+        elif self.battery_size == 85:
+            range_kwh = 270
+
+        message = f"This car can go approximately {range_kwh}"
+        message += " miles on a full charge."
+        print(message)
+
+
+class ElectricCar(Car):
+    """Представляет аспекты машины, специфические для электромобилей."""
+
+    def __init__(self, make, model, year):
+        """Инициализирует атрибуты класса-родителя."""
+        super().__init__(make, model, year)
+        # Добавляем атрибут с именем self.battery и создаем экземпляр Battery()
+        # Теперь любой экземпляр ElectricCar будет иметь автоматически
+        # создаваемый экземпляр Battery.
+        # Экземпляры как атрибуты
+        self.battery = Battery()
+
+    # Переопределение методов класса-родителя
     def fill_gas_tank(self):
         """У электромобилей нет бензобака."""
         print("This car doesn't need a gas tank!")
@@ -63,9 +89,11 @@ class ElectricCar(Car):
 
 my_tesla = ElectricCar('tesla', 'model s', 2016)
 print(my_tesla.get_descriptive_name())
-my_tesla.describe_battery()
 my_tesla.fill_gas_tank()
+my_tesla.battery.describe_battery()
+my_tesla.battery.get_range()
 
 # 2016 Tesla Model S
-# This car has a 70-kWh battery.
 # This car doesn't need a gas tank!
+# This car has a 70-kWh battery.
+# This car can go approximately 240 miles on a full charge.
