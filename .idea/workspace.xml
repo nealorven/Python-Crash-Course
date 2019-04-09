@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7838036-74cf-4af3-ae1a-3cedb9653740" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/15_styling_features.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/16_from_import/0_Importing_the_entire_module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/16_from_import/1_Import_specific_features.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/16_from_import/2_assign_a_nickname_to_a_function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/16_from_import/3_assign_a_nickname_for_a_module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/16_from_import/4_importing_all_module_functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/16_from_import/making_pizzas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/16_from_import/pizza.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_15_printing_models/call_ print_function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_15_printing_models/printing_function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_16_importing/1_import_name_module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_16_importing/2_from_name_module_import_name_function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_16_importing/3_from_name_module_import_name_function_as_nickname.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_16_importing/4_from_name_module_as_nickname.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_16_importing/5_from_name_module_import_star.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_16_importing/printing_function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_17_styling_features/some.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/1_creating_and_using_a_class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/2_creating_a_class_instance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/3_creating_multiple_instances.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/4_work_with_classes_and_instances.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/5_init_ method_inheritance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/Exercises/9_1_restaurant.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/Exercises/9_2_three_restaurants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/Exercises/9_3_users.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/14_positional_arguments_with_arbitrary_sets_of_arguments.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/14_positional_arguments_with_arbitrary_sets_of_arguments.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_13_profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_13_profile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_14_cars.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises/8_14_cars.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/5_init_ method_inheritance.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/5_init_ method_inheritance.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,33 +16,50 @@
     <SUITE FILE_PATH="coverage/Python_Crash_Course$9_5_login_attempts.coverage" NAME="9_5_login_attempts Coverage Results" MODIFIED="1554717902792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/Exercises" />
     <SUITE FILE_PATH="coverage/Python_Crash_Course$13_passing_an_arbitrary_set_of_arguments.coverage" NAME="13_passing_an_arbitrary_set_of_arguments Coverage Results" MODIFIED="1554377900592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Chapter_Basics/8_Functions" />
     <SUITE FILE_PATH="coverage/Python_Crash_Course$4_work_with_classes_and_instances.coverage" NAME="4_work_with_classes_and_instances Coverage Results" MODIFIED="1554710830239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Chapter_Basics/9_Classes" />
-    <SUITE FILE_PATH="coverage/Python_Crash_Course$5_init__method_inheritance.coverage" NAME="5_init_ method_inheritance Coverage Results" MODIFIED="1554723166284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Chapter_Basics/9_Classes" />
+    <SUITE FILE_PATH="coverage/Python_Crash_Course$5_init__method_inheritance.coverage" NAME="5_init_ method_inheritance Coverage Results" MODIFIED="1554810110262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Chapter_Basics/9_Classes" />
     <SUITE FILE_PATH="coverage/Python_Crash_Course$9_4_visitors.coverage" NAME="9_4_visitors Coverage Results" MODIFIED="1554714260418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/Exercises" />
     <SUITE FILE_PATH="coverage/Python_Crash_Course$8_13_profile.coverage" NAME="8_13_profile Coverage Results" MODIFIED="1554463996303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises" />
     <SUITE FILE_PATH="coverage/Python_Crash_Course$9_3_users.coverage" NAME="9_3_users Coverage Results" MODIFIED="1554700216134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Chapter_Basics/9_Classes/Exercises" />
     <SUITE FILE_PATH="coverage/Python_Crash_Course$8_12_sandwiches.coverage" NAME="8_12_sandwiches Coverage Results" MODIFIED="1554460867245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Chapter_Basics/8_Functions/Exercises" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/9_Classes/4_work_with_classes_and_instances.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-88">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/9_Classes/5_init_ method_inheritance.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/9_Classes/4_work_with_classes_and_instances.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-88">
+                  <caret line="2" selection-start-line="2" selection-end-line="2" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/9_Classes/5_init_ method_inheritance.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="541">
+                  <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/9_Classes/5_init_ method_inheritance.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="611">
+                  <caret line="61" selection-start-line="61" selection-end-line="61" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -120,9 +109,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="138" />
-    <option name="y" value="27" />
+    <option name="y" value="28" />
     <option name="width" value="1678" />
-    <option name="height" value="1022" />
+    <option name="height" value="1021" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -333,15 +322,24 @@
       <workItem from="1554358180904" duration="509000" />
       <workItem from="1554358704504" duration="35529000" />
       <workItem from="1554689045693" duration="283000" />
-      <workItem from="1554689350403" duration="20576000" />
+      <workItem from="1554689350403" duration="24194000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58155000" />
+    <option name="totallyTimeSpent" value="61773000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="138" y="27" width="1678" height="1022" extended-state="0" />
+    <frame x="138" y="28" width="1678" height="1021" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.26390532" />
@@ -349,16 +347,16 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31354985" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39865622" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31278026" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39839265" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295063" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3295063" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3295964" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3295964" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32922733" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3295063" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3295964" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -652,8 +650,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1_Chapter_Basics/9_Classes/5_init_ method_inheritance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="611">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
