@@ -17,26 +17,28 @@ class User:
 
 
 class Privileges:
-    def __init__(self, first_name, last_name):
+    def __init__(self):
         self.privileges = [
             'allowed to add messages',
             'allowed to delete users',
-            'allowed to ban users'
-            ]
+            'allowed to ban users']
 
     def show_privileges(self):
         privileges = self.privileges
         for privilege in privileges:
             print(f"Privilege: {privilege}.")
 
+
 class Admin(User):
     def __init__(self, first_name, last_name):
         super().__init__(first_name, last_name)
-        self.
+
+        # Экземпляр Privileges как атрибут класса Admin.
+        self.privileges_users = Privileges()
 
 
 administrator = Admin('neal', 'orven')
-administrator.show_privileges()
+administrator.privileges_users.show_privileges()
 
 # Privilege: allowed to add messages.
 # Privilege: allowed to delete users.

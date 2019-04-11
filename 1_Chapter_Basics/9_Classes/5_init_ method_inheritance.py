@@ -58,13 +58,11 @@ class Battery:
 
     def get_range(self):
         """Выводит приблизительный запас хода для аккумулятора."""
-
-        #global range_kwh
+        global range_kwh
         if self.battery_size >= 70:
             range_kwh = 248
         elif self.battery_size <= 85:
             range_kwh = 274
-
         message = f"This car can go approximately {range_kwh}"
         message += " miles on a full charge."
         print(message)
@@ -75,10 +73,10 @@ class ElectricCar(Car):
     def __init__(self, make, model, year):
         """Инициализирует атрибуты класса-родителя."""
         super().__init__(make, model, year)
-        # Добавляем атрибут с именем self.battery и создаем экземпляр Battery()
+        # Добавляем атрибут self.battery и создаем экземпляр Battery()
         # Теперь любой экземпляр ElectricCar будет иметь автоматически
         # создаваемый экземпляр Battery.
-        # Экземпляры как атрибуты
+        # Экземпляр как атрибут
         self.battery = Battery()
 
     # Переопределение методов класса-родителя
@@ -89,11 +87,13 @@ class ElectricCar(Car):
 
 my_tesla = ElectricCar('tesla', 'model s', 2016)
 print(my_tesla.get_descriptive_name())
-my_tesla.fill_gas_tank()
-my_tesla.battery.describe_battery()
-my_tesla.battery.get_range()
-
 # 2016 Tesla Model S
+
+my_tesla.fill_gas_tank()
 # This car doesn't need a gas tank!
+
+my_tesla.battery.describe_battery()
 # This car has a 70-kWh battery.
+
+my_tesla.battery.get_range()
 # This car can go approximately 240 miles on a full charge.
