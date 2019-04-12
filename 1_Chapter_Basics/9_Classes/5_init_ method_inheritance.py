@@ -15,7 +15,6 @@
 
 class Car:
     """Простая модель автомобиля."""
-
     def __init__(self, make, model, year):
         # Атрибуты
         self.make = make
@@ -48,7 +47,6 @@ class Car:
 
 class Battery:
     """Простая модель аккумулятора электромобиля."""
-
     def __init__(self, battery_size=68):
         self.battery_size = battery_size
 

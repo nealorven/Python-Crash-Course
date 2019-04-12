@@ -1,10 +1,11 @@
-langs = {
+languages = {
     'python': 'dynamic',
     'ruby': 'dynamic',
     'go': 'static'
-}
-for lang, type in langs.items():
-    print(f"{lang} is {type}")
+    }
+
+for lang, lang_type in languages.items():
+    print(f"{lang} is {lang_type}")
 
 # python is dynamic
 # ruby is dynamic
