@@ -1,4 +1,7 @@
-from basic_car import Car
+# Page 180
+# Импортирование всех классов из модуля
+
+from basic_car import *
 
 my_new_car = Car('audi', 'a4', 2016)
 print(my_new_car.get_descriptive_name())
