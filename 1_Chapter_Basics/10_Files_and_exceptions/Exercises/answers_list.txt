@@ -1,0 +1,3 @@
+i like to write clear code
+i want to write clean and useful code
+exit
