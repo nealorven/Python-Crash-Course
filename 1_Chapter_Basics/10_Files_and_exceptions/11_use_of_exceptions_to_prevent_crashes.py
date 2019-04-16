@@ -38,6 +38,7 @@ while True:
     if first_number == 'q':
         break
     second_number = input("Second number: ")
+
     # Блок try включает только код, способный породить ошибку.
     try:
         answer = int(first_number) / int(second_number)
@@ -53,3 +54,9 @@ while True:
 # First number: 5
 # Second number: 0
 # You can't divide by 0!
+#
+# First number: 4
+# Second number: 2
+# 2.0
+#
+# First number: q
