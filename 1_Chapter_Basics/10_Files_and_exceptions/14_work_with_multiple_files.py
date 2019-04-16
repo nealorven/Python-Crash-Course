@@ -6,28 +6,38 @@
 # проведение анализа для нескольких книг:
 
 
+books = [
+    'alice.txt', 'siddhartha.txt',
+    'moby_dick.txt', 'little_women.txt'
+]
+
+
 def count_words(file_name):
     """Подсчет приблизительного количества строк в файле."""
     try:
         with open(file_name) as f_obj:
             contents = f_obj.read()
-
     except FileNotFoundError:
         msg = f"Sorry, the file {file_name} does not exist."
         print(msg)
-
     else:
-        # Подсчет приблизительного количества строк в файле.
         words = contents.split()
         num_words = len(words)
         msg = f"The file {file_name} has about {str(num_words)} words."
         print(msg)
 
 
-filename_1 = 'alice.txt'
-count_words(filename_1)
-# Sorry, the file alice.txt does not exist.
+file_name_1 = 'siddhartha.txt'
+count_words(file_name_1)
+# Sorry, the file siddhartha.txt does not exist.
 
-filename_2 = 'text.txt'
-count_words(filename_2)
-# The file text.txt has about 64 words.
+file_name_2 = 'alice.txt'
+count_words(file_name_2)
+# The file alice.txt has about 64 words.
+
+for book in books:
+    count_words(book)
+# The file alice.txt has about 64 words.
+# Sorry, the file siddhartha.txt does not exist.
+# The file moby_dick.txt has about 448 words.
+# The file little_women.txt has about 256 words.
