@@ -6,12 +6,6 @@
 # проведение анализа для нескольких книг:
 
 
-books = [
-    'alice.txt', 'siddhartha.txt',
-    'moby_dick.txt', 'little_women.txt'
-]
-
-
 def count_words(file_name):
     """Подсчет приблизительного количества строк в файле."""
     try:
@@ -35,6 +29,9 @@ file_name_2 = 'alice.txt'
 count_words(file_name_2)
 # The file alice.txt has about 64 words.
 
+books = [
+    'alice.txt', 'siddhartha.txt', 'moby_dick.txt', 'little_women.txt'
+    ]
 for book in books:
     count_words(book)
 # The file alice.txt has about 64 words.
