@@ -39,14 +39,14 @@ class File:
             print(msg)
 
 
-file_name_0 = 'cats.txt'
-new_file_0 = File(file_name_0)
-new_file_0.read_file()
+file_cats = 'cats.txt'
+new_cats = File(file_cats)
+new_cats.read_file()
 # file cats.txt contains: capanno salvichi mewcarlo
 
-file_name_1 = 'mouses.txt'
-new_file_1 = File(file_name_1)
-new_file_1.read_file()
+file_mouses = 'mouses.txt'
+new_mouses = File(file_mouses)
+new_mouses.read_file()
 # Sorry, the file mouses.txt does not exist.
 
 animals = [

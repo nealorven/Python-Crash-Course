@@ -21,12 +21,12 @@ def count_words(file_name):
         print(msg)
 
 
-file_name_1 = 'siddhartha.txt'
-count_words(file_name_1)
+file_siddhartha = 'siddhartha.txt'
+count_words(file_siddhartha)
 # Sorry, the file siddhartha.txt does not exist.
 
-file_name_2 = 'alice.txt'
-count_words(file_name_2)
+file_alice = 'alice.txt'
+count_words(file_alice)
 # The file alice.txt has about 64 words.
 
 books = [
