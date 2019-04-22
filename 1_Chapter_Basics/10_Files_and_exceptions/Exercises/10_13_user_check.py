@@ -7,6 +7,7 @@ while True:
     user_prompt = input(prompt)
 
     def get_new_username():
+        """Должен выполнять четкую функцию записи нового юзера."""
         username = input("Enter your account name again: ")
         filename = 'username.json'
         with open(filename, 'w') as f_obj:
@@ -15,6 +16,7 @@ while True:
 
 
     def get_stored_username():
+        """Только проверяет наличие пользователя."""
         file_name = 'username.json'
         try:
             with open(file_name) as f_obj:
@@ -49,3 +51,5 @@ while True:
         break
 
     user_check()
+
+# Все слишком сложно шо пздц
