@@ -25,9 +25,9 @@ class Restaurant:
 restaurant = Restaurant('gellini', 'italian')
 
 restaurant.read_number_served()
+# Number of served is: 0
 restaurant.number_served = 30
 restaurant.read_number_served()
-# Number of served is: 0
 # Number of served is: 30
 
 restaurant.set_number_served(35)

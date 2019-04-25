@@ -18,17 +18,15 @@ def build_profile(first, last, **user_info):
     return profile
 
 
-<<<<<<< HEAD
 user_profile = build_profile('albert', 'einstein',
                              location='princeton',
                              field='physics')
-=======
+
 user_profile = build_profile(
     'albert', 'einstein',
     location='princeton',
     field='physics')
 
->>>>>>> 22c3f03323503d9ac99e218539a693f5367169ef
 print(user_profile)
 
 # {
