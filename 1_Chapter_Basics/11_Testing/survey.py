@@ -27,12 +27,10 @@ class AnonymousSurvey:
 
     def store_response(self, new_response):
         """Сохраняет один ответ на опрос."""
-        # my_survey.store_response('English')
         self.responses.append(new_response)
 
     def show_results(self):
         """Выводит все полученные ответы."""
-        # self.assertIn('English', my_survey.responses)
         print("Survey results:")
         for response in self.responses:
             print('- ' + response)

@@ -28,9 +28,9 @@ class Employee:
 
 worker = Employee('neal', 'oaken', '5000')
 worker.show_employee_value()
-# # First name: Neal.
-# # Last name: Oaken.
-# # Annual salary: 5000.
+# First name: Neal.
+# Last name: Oaken.
+# Annual salary: 5000.
 
 worker.set_annual_salary(7000)
 worker.show_employee_value()
