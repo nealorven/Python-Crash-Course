@@ -1,5 +1,4 @@
 import unittest
-
 from population import get_format_city
 
 

@@ -15,6 +15,7 @@ class TestAnonymousSurvey(unittest.TestCase):
     def setUp(self):
         """Создание опроса и набора ответов для всех тестовых методов."""
         question = "What language did you first learn to speak?"
+
         self.responses = ['English', 'Spanish', 'Mandarin']
         self.my_survey = AnonymousSurvey(question)
 

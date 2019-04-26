@@ -7,7 +7,9 @@ class TestEmployee(unittest.TestCase):
     def setUp(self):
         self.first_name = 'neal'
         self.last_name = 'oaken'
-        self.annual_salary = 0
+        self.annual_salary = 3000
+
+        self.give_rise(2000)
 
         self.worker = Employee(
             self.first_name, self.last_name, self.annual_salary)
@@ -19,7 +21,7 @@ class TestEmployee(unittest.TestCase):
         #             self.annual_salary += up_raise
 
         self.worker.give_raise(self.annual_salary)
-        self.assertIn(self.annual_salary, self.worker.annual_salary)
+        self.assertEqual(self.annual_salary, self.worker.annual_salary)
 
     def test_give_default_raise(self):
         """Повышение по умолчанию"""
@@ -28,3 +30,6 @@ class TestEmployee(unittest.TestCase):
         #             self.annual_salary += 5000
 
         pass
+
+
+unittest.main()
