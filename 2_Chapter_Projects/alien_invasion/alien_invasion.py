@@ -1,6 +1,7 @@
 import sys
 import pygame
 from settings import Settings
+from ship import Ship
 
 
 def run_game():
@@ -8,10 +9,13 @@ def run_game():
     pygame.init()
     ai_settings = Settings()
     # Переменные с класса Settings вкладываются в кортеж.
-    screen = pygame.display.set_mode(
-        (ai_settings.screen_width, ai_settings.screen_height))
+    screen = pygame.display.set_mode((ai_settings.screen_width,
+                                      ai_settings.screen_height))
 
-    pygame.display.set_caption("Alien Invasion")
+    pygame.display.set_caption("EVE Online")
+
+    # Создание экземпляра класса. Отображение корабля игрока.
+    ship = Ship(screen)
 
     # Запуск основного цикла игры.
     while True:
@@ -22,6 +26,7 @@ def run_game():
 
             # При каждом проходе цикла перерисовывается экран.
             screen.fill(ai_settings.bg_color)
+            ship.blitme()
         # Отображение последнего прорисованного экрана.
         pygame.display.flip()
 
