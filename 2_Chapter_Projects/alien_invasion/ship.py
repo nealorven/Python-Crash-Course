@@ -19,11 +19,12 @@ class Ship:
         # Стороны определяются атрибутами top, bottom, left и right.
         # Y координата.
         self.rect.bottom = self.screen_rect.bottom
+
         # Флаг перемещения
         self.moving_right = False
         self.moving_left = False
 
-    def update(self):
+    def update_ship_moving(self):
         """Обновляет позицию корабля с учетом флага."""
         if self.moving_right:
             self.rect.centerx += 1
