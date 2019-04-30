@@ -12,12 +12,12 @@ class Ship:
         self.rect = self.image.get_rect()
         # Сохраняем прямоугольник экрана в self.screen_rect.
         self.screen_rect = screen.get_rect()
-        # Каждый новый корабль появился у нижнего края экрана.
-        # Центр элемента определяется атрибутами center, centerx или centery.
+
         # X координата.
+        # Центр определяется атрибутами center, centerx или centery.
         self.rect.centerx = self.screen_rect.centerx
-        # Стороны определяются атрибутами top, bottom, left и right.
         # Y координата.
+        # Стороны определяются атрибутами top, bottom, left и right.
         self.rect.bottom = self.screen_rect.bottom
 
         # Флаг перемещения
@@ -27,9 +27,9 @@ class Ship:
     def update_ship_moving(self):
         """Обновляет позицию корабля с учетом флага."""
         if self.moving_right:
-            self.rect.centerx += 1
+            self.rect.centerx += 3
         if self.moving_left:
-            self.rect.centerx -= 1
+            self.rect.centerx -= 3
 
     def blitme(self):
         """Рисует корабль в текущей позиции."""

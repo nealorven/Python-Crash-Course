@@ -8,25 +8,29 @@ def check_events(ship):
         if event.type == pygame.QUIT:
             sys.exit()
 
-        # Переместить корабль вправо.
+        # Если КНОПКА нажата то...
         elif event.type == pygame.KEYDOWN:
+            # Переместить корабль вправо если КНОПКА ВПРАВО нажата.
             if event.key == pygame.K_RIGHT:
                 ship.moving_right = True
+            # Переместить корабль влево если КНОПКА ВЛЕВО нажата.
             elif event.key == pygame.K_LEFT:
                 ship.moving_left = True
 
-        # Переместить корабль влево.
+        # Если КНОПКА НЕ нажата то...
         elif event.type == pygame.KEYUP:
+            # Корабль остается на месте если КНОПКА ВПРАВО НЕ нажата.
             if event.key == pygame.K_RIGHT:
                 ship.moving_right = False
+            # Корабль остается на месте если КНОПКА ВЛЕВО НЕ нажата.
             elif event.key == pygame.K_LEFT:
                 ship.moving_left = False
 
 
-def update_screen(ai_settings, screen, ship):
+def update_screen(eve_settings, screen, ship):
     """Обновляет изображения на экране и отображает новый экран."""
     # При каждом проходе цикла перерисовывается экран.
-    screen.fill(ai_settings.bg_color)
+    screen.fill(eve_settings.bg_color)
     ship.blitme()
     # Отображение последнего прорисованного экрана.
     pygame.display.flip()
