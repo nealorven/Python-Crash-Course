@@ -28,7 +28,7 @@ def check_events(ship):
 
 
 def update_screen(eve_settings, screen, ship):
-    """Обновляет изображения на экране и отображает новый экран."""
+    """Обновляет изображения на экране и обновляет окно."""
     # При каждом проходе цикла перерисовывается экран.
     screen.fill(eve_settings.bg_color)
     ship.blitme()
