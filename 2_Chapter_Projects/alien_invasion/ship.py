@@ -32,7 +32,7 @@ class Ship:
     def update(self):
         """Обновляет позицию корабля с учетом флага."""
         # Два блока if для одновременного нажатия клавиш.
-        # Обновляется атрибут center, не rect.
+        # Обновляется атрибут self.center, не self.rect.
         if self.moving_right and self.rect.right < self.screen_rect.right:
             # self.rect.centerx += 3
             self.center += self.ai_settings.ship_speed_factor
@@ -42,23 +42,6 @@ class Ship:
             self.center -= self.ai_settings.ship_speed_factor
         # Обновление атрибута rect.centerx на основании self.center.
         self.rect.centerx = self.center
-
-    def blitme(self):
-        """Рисует корабль в текущей позиции."""
-        self.screen.blit(self.image, self.rect)
-
-
-class ShipCenter:
-    """Отображает корабль в центре экрана."""
-    def __init__(self, screen):
-        self.screen = screen
-        self.image = pygame.image.load('images/ship.bmp')
-        self.rect = self.image.get_rect()
-        self.screen_rect = screen.get_rect()
-        # X координата.
-        self.rect.centerx = self.screen_rect.centerx
-        # Y координата.
-        self.rect.centery = self.screen_rect.centery
 
     def blitme(self):
         """Рисует корабль в текущей позиции."""
