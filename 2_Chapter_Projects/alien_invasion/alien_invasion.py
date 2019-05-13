@@ -1,5 +1,5 @@
 import pygame
-import game_functions as game_fnc
+import game_functions as gf
 from settings import Settings
 from ship import Ship
 
@@ -20,12 +20,12 @@ def run_game():
 
     while True:
         # Отслеживание событий клавиатуры и мыши.
-        game_fnc.check_events(ship)
+        gf.check_events(ship)
         # Обновляет положение корабля.
         ship.update()
         # При каждом проходе цикла перерисовывается экран.
         # Ссылается в модуль game_functions.py в метод update_screen.
-        game_fnc.update_screen(ai_settings, screen, ship)
+        gf.update_screen(ai_settings, screen, ship)
 
 
 run_game()

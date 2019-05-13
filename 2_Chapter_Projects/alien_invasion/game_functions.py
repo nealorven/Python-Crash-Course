@@ -10,6 +10,12 @@ def check_keydown_events(event, ship):
     # Переместить корабль влево если КНОПКА ВЛЕВО нажата.
     elif event.key == pygame.K_LEFT:
         ship.moving_left = True
+    # Переместить корабль вверх если КНОПКА ВЛЕВО нажата.
+    elif event.key == pygame.K_UP:
+        ship.moving_up = True
+    # Переместить корабль вниз если КНОПКА ВЛЕВО нажата.
+    elif event.key == pygame.K_DOWN:
+        ship.moving_down = True
 
 
 def check_keyup_events(event, ship):
@@ -20,6 +26,12 @@ def check_keyup_events(event, ship):
     # Корабль остается на месте если КНОПКА ВЛЕВО НЕ нажата.
     elif event.key == pygame.K_LEFT:
         ship.moving_left = False
+    # Корабль остается на месте если КНОПКА ВВЕРХ НЕ нажата.
+    elif event.key == pygame.K_UP:
+        ship.moving_up = False
+    # Корабль остается на месте если КНОПКА ВНИЗ НЕ нажата.
+    elif event.key == pygame.K_DOWN:
+        ship.moving_down = False
 
 
 def check_events(ship):
