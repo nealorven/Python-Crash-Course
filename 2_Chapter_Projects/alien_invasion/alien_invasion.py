@@ -2,6 +2,7 @@ import pygame
 import game_functions as gf
 from settings import Settings
 from ship import Ship
+from pygame.sprite import Group
 
 
 def run_game():
@@ -18,14 +19,18 @@ def run_game():
     # Передаем атрибут ship_speed_factor в ship.py.
     ship = Ship(ai_settings, screen)
 
+    # Создание группы для хранения пуль. Экземпляр.
+    bullets = Group()
+
     while True:
         # Отслеживание событий клавиатуры и мыши.
-        gf.check_events(ship)
+        gf.check_events(ai_settings, screen, ship, bullets)
         # Обновляет положение корабля.
         ship.update()
+        # Обновляет положение снарядов.
+        bullets.update()
         # При каждом проходе цикла перерисовывается экран.
-        # Ссылается в модуль game_functions.py в метод update_screen.
-        gf.update_screen(ai_settings, screen, ship)
+        gf.update_screen(ai_settings, screen, ship, bullets)
 
 
 run_game()
