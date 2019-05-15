@@ -57,6 +57,7 @@ def update_screen(ai_settings, screen, ship, bullets):
     """Обновляет изображения на экране и обновляет окно."""
     # При каждом проходе цикла перерисовывается экран.
     screen.fill(ai_settings.bg_color)
+
     # Все пули выводятся позади изображений корабля и пришельцев.
     for bullet in bullets.sprites():
         bullet.draw_bullet()
