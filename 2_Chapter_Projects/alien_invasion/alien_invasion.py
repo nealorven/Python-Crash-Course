@@ -28,12 +28,7 @@ def run_game():
         # Обновляет положение корабля.
         ship.update()
         # Обновляет положение снарядов.
-        bullets.update()
-        # Удаление пуль, вышедших за край экрана.
-        for bullet in bullets.copy():
-            if bullet.rect.bottom <= 0:
-                bullets.remove(bullet)
-        print(len(bullets))
+        gf.update_bullets(bullets)
         # При каждом проходе цикла перерисовывается экран.
         gf.update_screen(ai_settings, screen, ship, bullets)
 
